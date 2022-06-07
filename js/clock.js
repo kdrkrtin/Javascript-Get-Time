@@ -11,7 +11,3 @@ function showTime() {
     hoursTemp.innerHTML = `${new Date().getDate()} ${months[new Date().getMonth()]} ${new Date().getFullYear()}`
     daysTemp.innerHTML = `${days[dayIndex - 1]}`
 }
-
-setInterval(()=>{
-    showTime();
-}, 1000)
